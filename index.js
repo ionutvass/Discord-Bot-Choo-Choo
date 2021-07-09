@@ -27,9 +27,9 @@ for(const folder of folders){
     client.commands.set(command.name, command);
   }
 }
-const helpCommand = require(`./utils/help.js`);
+// const helpCommand = require(`./utils/help.js`);
 
-client.commands.set(helpCommand.name, helpCommand);
+// client.commands.set(helpCommand.name, helpCommand);
 
 
 
