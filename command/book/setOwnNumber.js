@@ -1,8 +1,8 @@
-const getNumbers = require("../utils/getNumbers")
-const getDefaultEmbed = require("../utils/getDefaultEmbed")
-const getIndexes = require("../utils/getIndexes")
-const getDatabase = require("../utils/getDatabase")
-const getRandomNumber = require("../utils/getRandomNumber")
+const getNumbers = require("../../utils/getNumbers")
+const getDefaultEmbed = require("../../utils/getDefaultEmbed")
+const getIndexes = require("../../utils/getIndexes")
+const getDatabase = require("../../utils/getDatabase")
+const getRandomNumber = require("../../utils/getRandomNumber")
 const randoms = getNumbers();
 
 

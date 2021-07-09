@@ -3,9 +3,9 @@ const Discord = require("discord.js");
 // const p5 = require("p5");
 const fs = require("fs");
 
-const getNumbers = require("../utils/getNumbers")
-const getDefaultEmbed = require("../utils/getDefaultEmbed")
-const getDatabase = require("../utils/getDatabase")
+const getNumbers = require("../../utils/getNumbers")
+const getDefaultEmbed = require("../../utils/getDefaultEmbed")
+const getDatabase = require("../../utils/getDatabase")
 
 // Loading sequence of random numbers
 const randoms = getNumbers();

@@ -19,9 +19,9 @@ client.commands = new Discord.Collection();
 
 // rewrite commands to use Discord.Collection
 
-const folders = ["./commands-book", "./commands-easteregg", "./commands-tutorials"]
+const folders = fs.readdirSync('./command');//["./commands-book", "./commands-easteregg", "./commands-tutorials"]
 for(const folder of folders){
-  let commandFiles = fs.readdirSync(folder).filter(file => file.endsWith('.js'));
+  let commandFiles = fs.readdirSync(`./${folder}`).filter(file => file.endsWith('.js'));
   for (const file of commandFiles) {
     const command = require(`${folder}/${file}`);
     client.commands.set(command.name, command);

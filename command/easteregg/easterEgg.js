@@ -1,4 +1,4 @@
-const getDefaultEmbed = require("../utils/getDefaultEmbed")
+const getDefaultEmbed = require("../../utils/getDefaultEmbed")
 
 module.exports = {
     name:"easteregg",
